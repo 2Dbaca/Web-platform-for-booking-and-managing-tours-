@@ -1,1 +1,0 @@
-# Web-platform-for-booking-and-managing-tours-
