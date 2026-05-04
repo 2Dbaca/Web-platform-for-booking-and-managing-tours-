@@ -18,63 +18,10 @@ Frontend	HTML5, CSS3, JavaScript
 Веб-сервер	Nginx
 Контейнеризация	Docker, Docker Compose
 Контроль версий	Git, GitHub
-📁 Структура репозитория
-text
-tour-platform/
-│
-├── 📁 assets/                 # Статические файлы
-│   ├── 📁 css/
-│   │   └── style.css         # Основные стили
-│   └── 📁 js/
-│       └── script.js         # JavaScript скрипты
-│
-├── 📁 config/                 # Конфигурация
-│   └── database.php          # Подключение к БД
-│
-├── 📁 controllers/            # Контроллеры (MVC)
-│   ├── AdminController.php   # Админ-панель
-│   ├── AuthController.php    # Аутентификация
-│   ├── BookingController.php # Бронирование
-│   ├── HomeController.php    # Главная страница
-│   ├── ProfileController.php # Личный кабинет
-│   └── TourController.php    # Управление турами
-│
-├── 📁 core/                   # Ядро приложения
-│   ├── Database.php          # Подключение к БД (PDO)
-│   ├── Router.php            # Маршрутизация
-│   └── Session.php           # Управление сессиями
-│
-├── 📁 docker/                 # Docker конфигурации
-│   ├── 📁 nginx/
-│   │   └── default.conf      # Конфиг Nginx
-│   └── 📁 php/
-│       └── Dockerfile        # Сборка PHP контейнера
-│
-├── 📁 models/                 # Модели данных
-│   ├── Order.php             # Работа с заказами
-│   ├── Report.php            # Формирование отчётов
-│   ├── Tour.php              # Работа с турами
-│   └── User.php              # Работа с пользователями
-│
-├── 📁 views/                  # Представления (шаблоны)
-│   ├── 📁 admin/             # Админ-панель
-│   ├── 📁 auth/              # Вход/регистрация
-│   ├── 📁 layouts/           # Шаблоны header/footer
-│   ├── 📁 profile/           # Личный кабинет
-│   └── 📁 tours/             # Страницы туров
-│
-├── 📁 uploads/                # Загруженные файлы
-│
-├── .gitignore                # Игнорируемые файлы
-├── docker-compose.yml        # Оркестрация Docker
-├── Dockerfile                # Сборка PHP образа
-├── database.sql              # SQL дамп БД
-├── index.php                 # Точка входа (роутер)
-├── init_db.php               # Инициализация БД данными
-├── README.md                 # Документация
-└── test.php                  # Тестовый файл
+
+
 🚀 Установка и запуск
-Способ 1: Запуск через Docker (рекомендуемый)
+Способ 1: Запуск через Docker
 bash
 # Клонирование репозитория
 git clone https://github.com/2Dbaca/Web-platform-for-booking-and-managing-tours-.git
@@ -187,20 +134,3 @@ MIT License. Проект разработан в рамках учебной п
 Репозиторий: https://github.com/2Dbaca/Web-platform-for-booking-and-managing-tours-
 
 Email: tourplatform@example.com
-
-✅ Чек-лист готовности релиза
-Разработан функционал MVP
-
-Проведено тестирование
-
-Создана документация
-
-Настроен Docker
-
-Код загружен в репозиторий
-
-Создана ветка mvp
-
-Написан README.md
-
-Подготовлены скриншоты для презентации
