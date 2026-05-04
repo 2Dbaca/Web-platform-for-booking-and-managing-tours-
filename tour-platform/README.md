@@ -49,30 +49,35 @@ cd tour-platform
 docker-compose up -d
 
 # Остановка контейнеров
+
 docker-compose down
+
 Способ 2: Запуск через XAMPP
+
 Скопировать папку проекта в C:\xampp\htdocs\tour-platform
+
 
 Запустить Apache и MySQL в XAMPP Control Panel
 
+
 Импортировать database.sql через phpMyAdmin
+
 
 Открыть http://localhost/tour-platform
 
+
 🌐 Доступ к сервисам
+
 Сервис	URL	Примечание
+
 Сайт	http://localhost	Основное приложение
+
 phpMyAdmin	http://localhost:8080	Управление БД (логин: root, пароль: rootpassword)
+
 MySQL	localhost:3307	Прямое подключение к БД
-🔐 Тестовые учётные записи
-Роль	Логин	Пароль
-Администратор	admin	admin123
-Клиент	user	admin123
-Клиент	ivan	admin123
-Клиент	maria	admin123
-📋 Функциональные возможности
-Для гостей:
-Просмотр списка туров
+
+
+
 
 Поиск и фильтрация туров по странам и датам
 
